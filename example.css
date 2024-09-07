@@ -1,0 +1,133 @@
+body {
+    margin-left: 190px;
+    margin-right: 190px;
+    padding-top: 24px;
+    padding-left: 12px;
+}
+
+#title {
+    font-size: 24px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: rgb(215, 215, 215); /* 선의 색상 */
+    margin: 20px 0; /* 위아래 여백 */
+}
+#middle {
+    background-color: #f8f9fa;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#middle h1{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+#middle p{
+    font-size: 25px;
+    margin-top: 0px;
+    width: 800px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+#first-btn{
+    background-color: #0d6efd;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    width: 170px;
+    height: 48px;
+    font-size: 20px;
+}
+#first-btn:hover{
+    background-color: #0f5cd1;;
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-between; /* 두 섹션 사이의 공간을 균등하게 분배 */
+    gap: 20px; /* 섹션들 사이의 간격 */
+}
+
+#second-section, #third-section {
+    flex: 1; /* 두 섹션을 동일한 크기로 만듦 */
+}
+
+#second-section{
+    color: white;
+    background-color: rgb(24, 24, 24);
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+}
+
+#second-section h2{
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+#second-section p{
+    margin-top: 8px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#second-btn{
+    background-color: rgb(24, 24, 24);
+    border: 1px solid #ffffff;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+}
+
+#second-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#third-section{
+    border: 1px solid #cfcfcf;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+#third-section h2{
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+#third-section p{
+    line-height: 25px;
+}
+
+#third-section button{
+    color: #8e9090;
+    border: 1px solid #8e9090;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+}
+
+#third-btn:hover{
+    background-color: #8e9090;
+    color: #f8f8f8;
+}
+
+footer{
+    margin-bottom: 30px;
+}
+

@@ -1,0 +1,77 @@
+body {
+    font: Verdana, sans-serif;
+}
+
+#title, #middle{
+    font-size: 16px;
+    margin-left: 12px;
+}
+
+#title{
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+
+h1, h2, h3 {
+    color: #4caf50;
+}
+
+#menulist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+    margin-top: 16px;
+    margin : 16px;
+}
+#sheet1 {
+    font-family: Verdana, sans-serif; /* 폰트 지정 */
+    font-size: 16px;
+
+    width: 169px;
+    height: 30px;
+    
+    background-color: #555555;
+    color: #ffffff;
+    list-style-type: none;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;    /* 마우스 모양 */
+    text-decoration: none; /* 밑줄 제거 */
+    
+    display: inline-block; /* float 대신 사용 */
+    box-sizing: border-box; /* padding 포함하여 크기 계산 */
+}
+#sheet1:nth-child(1) {
+   background-color:#04AA6D;
+}
+
+.menuitem:hover {
+    background-color: #000;
+}
+#sheet2 {
+    color: #000000;
+}
+
+#sheet2:hover {
+    color: #84c754
+
+}
+
+p {
+    line-height: 1.5; /* 원하는 줄 간격으로 설정 (1.8배) */
+}
+
+#Side-Bar {
+    background-color: #f1f1f1;
+    border: 1px solid #d4d4d4;
+    padding-left: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#bottom {
+    text-align: center;
+    font-size: 11.2px;
+    padding: 10px;
+    line-height: 14px;
+}
